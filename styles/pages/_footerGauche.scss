@@ -1,0 +1,99 @@
+footer {
+  max-width: 70%;
+  margin: 20px auto;
+  background: $color3;
+
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .footer-left {
+
+      
+      .nom {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+
+        label {
+          text-transform: uppercase;
+          color: $color5;
+          font-size: 0.7rem;
+          font-weight: bold;
+          margin: 5px;
+        }
+
+        input {
+          background: $transparent;
+          border-radius: 5px;
+          border: 1px solid $color4;
+          height: 30px;
+          // width: 27rem;
+          width: 23rem;
+        }
+      }
+
+      .miel {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+
+        label {
+          text-transform: uppercase;
+          color: $color5;
+          font-size: 0.7rem;
+          font-weight: bold;
+          margin: 5px;
+        }
+
+        input {
+          background: $transparent;
+          border-radius: 5px;
+          border: 1px solid $color4;
+          height: 30px;
+          // width: 27rem;
+          width: 23rem;
+        }
+      }
+
+      .msg {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+
+        label {
+          text-transform: uppercase;
+          color: $color5;
+          font-size: 0.7rem;
+          font-weight: bold;
+          margin: 5px;
+        }
+
+        textarea {
+          background: #00000000;
+          border-radius: 5px;
+          border: 1px solid $color4;
+          height: 30px;
+          // width: 27rem;
+          width: 23rem;
+          height: 11.25rem;
+        }
+
+
+      }
+    }
+    button {
+        margin: 20px;
+        background: $transparent;
+
+        &:hover {
+            background: $color2;
+            
+        }
+    }
+  }
+}

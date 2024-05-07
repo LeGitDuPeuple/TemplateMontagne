@@ -1,0 +1,32 @@
+header  {
+    // min-height: 32.25rem;
+
+    .header-container {
+        @include dfcenter;
+        flex-direction: column;
+        padding: 13rem;
+    
+    h1{
+        text-transform: uppercase;
+        color: $color1;
+        font-size: 3rem;
+        line-break: strict;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: 4px;
+        margin-top: 0;
+    }
+    p {
+        color: $color1;
+        margin: 30px;
+    }
+    i {
+        margin: 30px;
+        color: $color1;
+        border: solid 1px $color1;
+        padding: 15px;
+        border-radius: 1000px;
+    }
+   
+    }
+}
