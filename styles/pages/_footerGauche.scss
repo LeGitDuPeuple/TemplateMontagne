@@ -29,9 +29,9 @@ footer {
           background: $transparent;
           border-radius: 5px;
           border: 1px solid $color4;
-          height: 30px;
-          // width: 27rem;
-          width: 23rem;
+          height: 2rem;
+          width: 27rem;
+         
         }
       }
 
@@ -53,9 +53,9 @@ footer {
           background: $transparent;
           border-radius: 5px;
           border: 1px solid $color4;
-          height: 30px;
-          // width: 27rem;
-          width: 23rem;
+          height: 2rem;
+          width: 27rem;
+       
         }
       }
 
@@ -78,8 +78,7 @@ footer {
           border-radius: 5px;
           border: 1px solid $color4;
           height: 30px;
-          // width: 27rem;
-          width: 23rem;
+          width: 27rem;
           height: 11.25rem;
         }
 
@@ -96,4 +95,16 @@ footer {
         }
     }
   }
+  @media (max-width: 1024px) {
+    footer {
+        .footer-container {
+            input, textarea {
+                width: 20rem;
+            }
+        }
+    }
+  }
 }
+
+
+

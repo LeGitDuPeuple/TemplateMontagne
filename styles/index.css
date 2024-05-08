@@ -228,6 +228,12 @@ main {
   padding: 10px 20px;
 }
 
+@media (max-width: 1024px) {
+  .main-bottom img {
+    height: 30rem;
+    width: 40rem;
+  }
+}
 .deux {
   border-top: 1px solid rgb(208, 205, 205);
   margin-top: 20px;
@@ -364,8 +370,8 @@ footer .footer-container .footer-left .nom input {
   background: rgba(0, 0, 0, 0);
   border-radius: 5px;
   border: 1px solid rgb(175, 173, 173);
-  height: 30px;
-  width: 23rem;
+  height: 2rem;
+  width: 27rem;
 }
 footer .footer-container .footer-left .miel {
   display: -webkit-box;
@@ -389,8 +395,8 @@ footer .footer-container .footer-left .miel input {
   background: rgba(0, 0, 0, 0);
   border-radius: 5px;
   border: 1px solid rgb(175, 173, 173);
-  height: 30px;
-  width: 23rem;
+  height: 2rem;
+  width: 27rem;
 }
 footer .footer-container .footer-left .msg {
   display: -webkit-box;
@@ -415,7 +421,7 @@ footer .footer-container .footer-left .msg textarea {
   border-radius: 5px;
   border: 1px solid rgb(175, 173, 173);
   height: 30px;
-  width: 23rem;
+  width: 27rem;
   height: 11.25rem;
 }
 footer .footer-container button {
@@ -424,4 +430,9 @@ footer .footer-container button {
 }
 footer .footer-container button:hover {
   background: rgb(18, 17, 17);
+}
+@media (max-width: 1024px) {
+  footer footer .footer-container input, footer footer .footer-container textarea {
+    width: 20rem;
+  }
 }/*# sourceMappingURL=index.css.map */

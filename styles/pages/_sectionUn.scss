@@ -60,3 +60,13 @@
 
        
     }
+
+    @media (max-width: 1024px) {
+        .main-bottom {
+            img {
+                height: 30rem;
+                width: 40rem;
+            }
+        }
+    }
+    
