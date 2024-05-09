@@ -1,32 +1,56 @@
-header  {
-    // min-height: 32.25rem;
+header {
+  position: relative;
 
-    .header-container {
-        @include dfcenter;
-        flex-direction: column;
-        padding: 13rem;
-    
-    h1{
-        text-transform: uppercase;
-        color: $color1;
-        font-size: 3rem;
-        line-break: strict;
-        text-align: center;
-        line-height: 60px;
-        letter-spacing: 4px;
-        margin-top: 0;
+  .header-container {
+    @include dfcenter;
+    flex-direction: column;
+    padding: 13rem;
+    min-height: 100vh;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: headerAnim 1.5s forwards;
+
+    @keyframes headerAnim {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    h1 {
+      text-transform: uppercase;
+      color: $color1;
+      font-size: 3rem;
+      line-break: strict;
+      text-align: center;
+      line-height: 60px;
+      letter-spacing: 4px;
+      margin-top: 0;
     }
     p {
-        color: $color1;
-        margin: 30px;
+      color: $color1;
+      margin: 30px;
+      height: 85%;
     }
-    i {
-        margin: 30px;
-        color: $color1;
-        border: solid 1px $color1;
-        padding: 15px;
-        border-radius: 1000px;
+    span {
+      margin: 30px;
+      color: $color1;
+      border: 1px solid $color1;
+      padding: 15px;
+      border-radius: 50px;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-   
+  }
+
+  @media (max-width: 768px) {
+    .header-container {
+      p {
+        text-align: center;
+      }
     }
+  }
 }

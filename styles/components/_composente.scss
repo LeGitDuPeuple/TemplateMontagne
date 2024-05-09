@@ -36,6 +36,13 @@ $transparent: rgba(0, 0, 0, 0);
     
 }
 
+body {
+    background: url(../img/bg.jpg) center/cover fixed;
+    overflow-x: hidden; 
+
+}
+
+
 button {
     text-transform: uppercase;
     background: $color1;
@@ -46,15 +53,18 @@ button {
     cursor: pointer;
     transition: 0.7s;
     font-weight: 700;
+    transition: 1.2s;
 &:hover {
       background: $color2;
       color: $color1;
+      transform: scale(1.1);
 }
  }
 
  ul li {
     list-style: none;
  }
+
 
 
 
